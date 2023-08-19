@@ -9,19 +9,35 @@
 /* Begin PBXBuildFile section */
 		C62C002B2A9137C300333B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C002A2A9137C300333B32 /* AppDelegate.swift */; };
 		C62C002D2A9137C300333B32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C002C2A9137C300333B32 /* SceneDelegate.swift */; };
-		C62C002F2A9137C300333B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C002E2A9137C300333B32 /* ViewController.swift */; };
+		C62C002F2A9137C300333B32 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C002E2A9137C300333B32 /* StartViewController.swift */; };
 		C62C00342A9137C400333B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62C00332A9137C400333B32 /* Assets.xcassets */; };
 		C62C00372A9137C400333B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62C00352A9137C400333B32 /* LaunchScreen.storyboard */; };
+		C62C00452A915CFB00333B32 /* CoffeeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C00442A915CFB00333B32 /* CoffeeParameters.swift */; };
+		C62C00472A915DB900333B32 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C00462A915DB900333B32 /* DataStore.swift */; };
+		C62C004B2A915EDF00333B32 /* CreatingDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C004A2A915EDF00333B32 /* CreatingDrinkViewController.swift */; };
+		C62C004D2A915F3100333B32 /* DrinkListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C004C2A915F3100333B32 /* DrinkListTableViewController.swift */; };
+		C62C004F2A915FB000333B32 /* ReadyDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C004E2A915FB000333B32 /* ReadyDrinkViewController.swift */; };
+		C62C00512A91600F00333B32 /* RecipeDrinkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C00502A91600F00333B32 /* RecipeDrinkTableViewController.swift */; };
+		C62C00532A91604800333B32 /* InfoDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C00522A91604800333B32 /* InfoDrinkViewController.swift */; };
+		C62C00552A91606B00333B32 /* CommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C00542A91606B00333B32 /* CommandViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C62C00272A9137C300333B32 /* AromaBlend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AromaBlend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62C002A2A9137C300333B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C62C002C2A9137C300333B32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C62C002E2A9137C300333B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C62C002E2A9137C300333B32 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		C62C00332A9137C400333B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C62C00362A9137C400333B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C62C00382A9137C400333B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62C00442A915CFB00333B32 /* CoffeeParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeParameters.swift; sourceTree = "<group>"; };
+		C62C00462A915DB900333B32 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		C62C004A2A915EDF00333B32 /* CreatingDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingDrinkViewController.swift; sourceTree = "<group>"; };
+		C62C004C2A915F3100333B32 /* DrinkListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListTableViewController.swift; sourceTree = "<group>"; };
+		C62C004E2A915FB000333B32 /* ReadyDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyDrinkViewController.swift; sourceTree = "<group>"; };
+		C62C00502A91600F00333B32 /* RecipeDrinkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDrinkTableViewController.swift; sourceTree = "<group>"; };
+		C62C00522A91604800333B32 /* InfoDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDrinkViewController.swift; sourceTree = "<group>"; };
+		C62C00542A91606B00333B32 /* CommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,70 @@
 		C62C00292A9137C300333B32 /* AromaBlend */ = {
 			isa = PBXGroup;
 			children = (
-				C62C002A2A9137C300333B32 /* AppDelegate.swift */,
-				C62C002C2A9137C300333B32 /* SceneDelegate.swift */,
-				C62C002E2A9137C300333B32 /* ViewController.swift */,
-				C62C00332A9137C400333B32 /* Assets.xcassets */,
-				C62C00352A9137C400333B32 /* LaunchScreen.storyboard */,
-				C62C00382A9137C400333B32 /* Info.plist */,
+				C62C00402A915C1400333B32 /* App */,
+				C62C00482A915DCB00333B32 /* Models */,
+				C62C00492A915DD400333B32 /* Services */,
+				C62C00412A915C3000333B32 /* ViewConrollers */,
+				C62C00422A915C6500333B32 /* Storyboards */,
+				C62C00432A915C8C00333B32 /* Resources */,
 			);
 			path = AromaBlend;
+			sourceTree = "<group>";
+		};
+		C62C00402A915C1400333B32 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C62C002C2A9137C300333B32 /* SceneDelegate.swift */,
+				C62C002A2A9137C300333B32 /* AppDelegate.swift */,
+				C62C00382A9137C400333B32 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C62C00412A915C3000333B32 /* ViewConrollers */ = {
+			isa = PBXGroup;
+			children = (
+				C62C002E2A9137C300333B32 /* StartViewController.swift */,
+				C62C004A2A915EDF00333B32 /* CreatingDrinkViewController.swift */,
+				C62C004C2A915F3100333B32 /* DrinkListTableViewController.swift */,
+				C62C004E2A915FB000333B32 /* ReadyDrinkViewController.swift */,
+				C62C00502A91600F00333B32 /* RecipeDrinkTableViewController.swift */,
+				C62C00522A91604800333B32 /* InfoDrinkViewController.swift */,
+				C62C00542A91606B00333B32 /* CommandViewController.swift */,
+			);
+			path = ViewConrollers;
+			sourceTree = "<group>";
+		};
+		C62C00422A915C6500333B32 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C62C00352A9137C400333B32 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C62C00432A915C8C00333B32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C62C00332A9137C400333B32 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C62C00482A915DCB00333B32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C62C00442A915CFB00333B32 /* CoffeeParameters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C62C00492A915DD400333B32 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C62C00462A915DB900333B32 /* DataStore.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +206,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62C002F2A9137C300333B32 /* ViewController.swift in Sources */,
+				C62C00512A91600F00333B32 /* RecipeDrinkTableViewController.swift in Sources */,
+				C62C00532A91604800333B32 /* InfoDrinkViewController.swift in Sources */,
+				C62C002F2A9137C300333B32 /* StartViewController.swift in Sources */,
+				C62C00452A915CFB00333B32 /* CoffeeParameters.swift in Sources */,
+				C62C004D2A915F3100333B32 /* DrinkListTableViewController.swift in Sources */,
 				C62C002B2A9137C300333B32 /* AppDelegate.swift in Sources */,
+				C62C00472A915DB900333B32 /* DataStore.swift in Sources */,
+				C62C004F2A915FB000333B32 /* ReadyDrinkViewController.swift in Sources */,
+				C62C004B2A915EDF00333B32 /* CreatingDrinkViewController.swift in Sources */,
 				C62C002D2A9137C300333B32 /* SceneDelegate.swift in Sources */,
+				C62C00552A91606B00333B32 /* CommandViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRYCV5GTMX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AromaBlend/Info.plist;
+				INFOPLIST_FILE = AromaBlend/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -308,7 +388,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DRYCV5GTMX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AromaBlend/Info.plist;
+				INFOPLIST_FILE = AromaBlend/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
